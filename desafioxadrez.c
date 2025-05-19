@@ -32,5 +32,21 @@ int main () {
       inicio++;
     } while (inicio < 8);
 
+    printf("--------------------------------------------------------------------------------------------------\n");
+
+    //Peça - CAVALO - Move 2 casas em uma direção e depois uma casa perpendiculamente (forma um L)
+    printf("### CAVALO ###\n");
+
+    int movimentoCompleto = 1; 
+
+    while (movimentoCompleto--) 
+    {
+      for (int i = 0; i < 2; i++) 
+      {
+        printf("Baixo\n");
+      }
+      printf("Esquerda\n");
+    }
+
   return 0;
 }
